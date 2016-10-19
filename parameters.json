@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_NewVM_adminPassword": {
+            "value": "Welcome12345"
+        },
+        "virtualMachines_NewVM_name": {
+            "value": "ARMTemplateDemoVM"
+        },
+        "networkInterfaces_newvm932_name": {
+            "value": "ARMTemplateDemoVM-nsg"
+        },
+        "networkSecurityGroups_NewVM_nsg_name": {
+            "value": "ARMTemplateDemoVMNic1"
+        },
+        "publicIPAddresses_NewVM_ip_name": {
+            "value": "ARMTemplateDemoVM-ip"
+        },
+        "virtualNetworks_MultiNicSubnet_name": {
+            "value": "MultiNicSubnet"
+        },
+        "storageAccounts_newvmstorage1018_name": {
+            "value": "newvmstorage1018"
+        }
+    }
+}
